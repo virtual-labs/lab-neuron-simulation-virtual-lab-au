@@ -9,15 +9,15 @@
     "phase": 2,
     "collegeName": "AMRT",
     "baseUrl": "nsvl-au.vlabs.ac.in",
-    "introduction": "",
+    "introduction": "This lab models a section of excitable neuronal membrane using the Hodgkin-Huxley equations. This lab focuses on understanding basic principles of resting potentials and describe mathematical models for studying resting potential of neurons. Experiments deigned in this lab explores in-depth about modelling of action potentials, role of potassium and sodium ion channels in neurons and describe how these ion channels affect the spiking patterns and how the gating properties regulate channel behavior firing patterns of different neurons. Students can expand their laboratory skillset by understanding the behavior of a nerve cell under different physiological conditions by studying the varying firing patterns at specific time period. The laboratory course can be further utilized as a self-learning or reference material for life science students.",
     "experiments": [],
     "targetAudience": {
-        "UG": [],
-        "PG": []
+        "UG": ["B.Tech./ B.E in Biotechnology"],
+        "PG": ["PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science"]
     },
-    "objective": "",
+    "objective": "1. Understand Hodgkin-Huxley equations and its parameters in details and to model resting and action potentials, voltage and current clamp, pharmacological effects of drugs that block specific channels.</br>2. To visualize how resting ion channels maintain the resting potential and introduction of mathematical models used for studying this mechanism.</br>3. To study the importance of ion channels in neuronal signal propagation. To explore the importance of K+ channels and to study how it serves as a delayed rectifier and to understand the dynamic properties of Na+ channels on neural signaling.</br>4. To provide overview of capacitance and conductance properties of a nerve cell in action potential generation and propagation.</br>5. To study the pattern of firing patterns using channel specific drugs at varying concentrations.",
     "courseAlignment": {
-        "description": "",
-        "universities": []
+        "description": "The syllabi of this lab aligns to the following disciplines.",
+        "universities": ["UG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science","B.Tech./ B.E in Biotechnology","PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science"]
     }
 }
