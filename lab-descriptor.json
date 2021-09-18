@@ -1,95 +1,100 @@
 {
-    "broadArea": 
+  "broadArea": {
+    "name": "Biotechnology and Biomedical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
+  },
+  "lab": "Neuron Simulation Virtual Lab",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "AMRT",
+  "baseUrl": "nsvl-au.vlabs.ac.in",
+  "introduction": "This lab models a section of excitable neuronal membrane using the Hodgkin-Huxley equations. This lab focuses on understanding basic principles of resting potentials and describe mathematical models for studying resting potential of neurons. Experiments deigned in this lab explores in-depth about modelling of action potentials, role of potassium and sodium ion channels in neurons and describe how these ion channels affect the spiking patterns and how the gating properties regulate channel behavior firing patterns of different neurons. Students can expand their laboratory skillset by understanding the behavior of a nerve cell under different physiological conditions by studying the varying firing patterns at specific time period. The laboratory course can be further utilized as a self-learning or reference material for life science students.",
+  "experiments": [
     {
-        "name": "Biotechnology and Biomedical Engineering",
-        "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
-    },
-    "lab": "Neuron Simulation Virtual Lab",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "AMRT",
-    "baseUrl": "nsvl-au.vlabs.ac.in",
-    "introduction": "This lab models a section of excitable neuronal membrane using the Hodgkin-Huxley equations. This lab focuses on understanding basic principles of resting potentials and describe mathematical models for studying resting potential of neurons. Experiments deigned in this lab explores in-depth about modelling of action potentials, role of potassium and sodium ion channels in neurons and describe how these ion channels affect the spiking patterns and how the gating properties regulate channel behavior firing patterns of different neurons. Students can expand their laboratory skillset by understanding the behavior of a nerve cell under different physiological conditions by studying the varying firing patterns at specific time period. The laboratory course can be further utilized as a self-learning or reference material for life science students.",
-    "experiments": 
-    [
-     {
       "name": "Modeling resting potentials in Neurons",
       "short-name": "modeling-resting-potentials",
       "repo": "https://github.com/virtual-labs/exp-modeling-resting-potentials-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Modeling action potentials",
       "short-name": "modeling-action-potentials",
       "repo": "https://github.com/virtual-labs/exp-modeling-action-potentials-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Modeling the delayed rectifier Potassium channels",
       "short-name": "potassium-channels",
       "repo": "https://github.com/virtual-labs/exp-potassium-channels-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Modeling the sodium ion channel and its effects on neural signaling",
       "short-name": "sodium-ion-channel",
       "repo": "https://github.com/virtual-labs/exp-sodium-ion-channel-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Current Clamp protocol",
       "short-name": "current-clamp-protocol",
       "repo": "https://github.com/virtual-labs/exp-current-clamp-protocol-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Voltage Clamp Protocol",
       "short-name": "voltage-clamp-protocol",
       "repo": "https://github.com/virtual-labs/exp-voltage-clamp-protocol-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Understanding first spike latency-current relationship",
       "short-name": "spike-latency-current-relationship",
       "repo": "https://github.com/virtual-labs/exp-spike-latency-current-relationship-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Understanding Frequency-Current relationship",
       "short-name": "frequency-current-relationship",
       "repo": "https://github.com/virtual-labs/exp-frequency-current-relationship-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Voltage-Current (VI) plot",
       "short-name": "voltage-current-plot",
       "repo": "https://github.com/virtual-labs/exp-voltage-current-plot-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Effects of pharmacological blockers on action",
       "short-name": "pharmacological-blockers",
       "repo": "https://github.com/virtual-labs/exp-pharmacological-blockers-au",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     }
-    ],
-    "targetAudience": {
-        "UG": ["B.Tech./ B.E in Biotechnology"],
-        "PG": ["PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science"]
-    },
-    "objective": "1. Understand Hodgkin-Huxley equations and its parameters in details and to model resting and action potentials, voltage and current clamp, pharmacological effects of drugs that block specific channels.</br>2. To visualize how resting ion channels maintain the resting potential and introduction of mathematical models used for studying this mechanism.</br>3. To study the importance of ion channels in neuronal signal propagation. To explore the importance of K+ channels and to study how it serves as a delayed rectifier and to understand the dynamic properties of Na+ channels on neural signaling.</br>4. To provide overview of capacitance and conductance properties of a nerve cell in action potential generation and propagation.</br>5. To study the pattern of firing patterns using channel specific drugs at varying concentrations.",
-    "courseAlignment": {
-        "description": "The syllabi of this lab aligns to the following disciplines.",
-        "universities": ["UG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science","B.Tech./ B.E in Biotechnology","PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science"]
-    }
+  ],
+  "targetAudience": {
+    "UG": ["B.Tech./ B.E in Biotechnology"],
+    "PG": ["PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science"]
+  },
+  "objective": "1. Understand Hodgkin-Huxley equations and its parameters in details and to model resting and action potentials, voltage and current clamp, pharmacological effects of drugs that block specific channels.</br>2. To visualize how resting ion channels maintain the resting potential and introduction of mathematical models used for studying this mechanism.</br>3. To study the importance of ion channels in neuronal signal propagation. To explore the importance of K+ channels and to study how it serves as a delayed rectifier and to understand the dynamic properties of Na+ channels on neural signaling.</br>4. To provide overview of capacitance and conductance properties of a nerve cell in action potential generation and propagation.</br>5. To study the pattern of firing patterns using channel specific drugs at varying concentrations.",
+  "courseAlignment": {
+    "description": "The syllabi of this lab aligns to the following disciplines.",
+    "universities": [
+      "UG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science",
+      "B.Tech./ B.E in Biotechnology",
+      "PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science"
+    ]
+  },
+  "exp_name": "Effects of pharmacological blockers on action",
+  "exp_short_name": "pharmacological-blockers",
+  "version": "v0.4.0"
 }
