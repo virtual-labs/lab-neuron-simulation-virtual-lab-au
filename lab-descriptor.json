@@ -28,7 +28,7 @@
       "name": "Modeling the delayed rectifier Potassium channels",
       "short-name": "potassium-channels",
       "repo": "https://github.com/virtual-labs/exp-potassium-channels-au",
-      "tag": "v1.0.3",
+      "tag": "v1.0.4",
       "deploy": true
     },
     {
@@ -96,5 +96,5 @@
   },
   "exp_name": "Effects of pharmacological blockers on action",
   "exp_short_name": "pharmacological-blockers",
-  "version": "v0.5.0"
+  "version": "v0.6.0"
 }
