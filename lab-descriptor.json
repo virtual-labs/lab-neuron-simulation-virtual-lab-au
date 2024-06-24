@@ -1,9 +1,11 @@
 {
   "broadArea": {
     "name": "Biotechnology and Biomedical Engineering",
-    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering",
+    "code": "BIO"
   },
   "lab": "Neuron Simulation Virtual Lab",
+  "lab_display_name": "Neuron Simulation Virtual Lab",  
   "deployLab": true,
   "phase": 2,
   "collegeName": "AMRT",
@@ -93,8 +95,5 @@
       "B.Tech./ B.E in Biotechnology",
       "PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science"
     ]
-  },
-  "exp_name": "Effects of pharmacological blockers on action",
-  "exp_short_name": "pharmacological-blockers",
-  "version": "v0.7.0"
+  }
 }
